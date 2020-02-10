@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Payment </title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="W.css">
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 	<script src="https://kit.fontawesome.com/847bf896bc.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="I/C.jpg" /><!-- METTRE UNE PHOTO A L ICONNE-->
+    <script type="text/javascript">
+    	function changevisa()
+{
+document.getElementById("visa").src= "file://C:/Users/W10/Desktop/Z/I/Dark Color/visa.png";
+
+}
+function changemc(){
+	document.getElementById("Mastercard").src= "file://C:/Users/W10/Desktop/Z/I/Dark Color/Mastercard.png";
+
+}
+function changeppl(){
+	document.getElementById("paypal").src= "file://C:/Users/W10/Desktop/Z/I/Dark Color/paypal.png";
+
+}function changewst(){
+	document.getElementById("western").src= "file://C:/Users/W10/Desktop/Z/I/Dark Color/western.png";
+
+}function changemae(){
+	document.getElementById("maestro").src= "file://C:/Users/W10/Desktop/Z/I/Dark Color/maestro.png";
+
+}
+    </script>
+
+</head> 
+
+<body>
+<header>    	
+	 <h1 class="display-3" >Super Cars </h1>
+<div class="topnav">
+  <a class="active" href="file:///C:/Users/W10/Desktop/Z/index.html">ACCUEIL</a>
+  <a href="file:///C:/Users/W10/Desktop/Z/voiture.html">VOS VEHICULES</a>
+  <a href="file:///C:/Users/W10/Desktop/Z/propos.html">A PROPOS</a>
+  <a href="file:///C:/Users/W10/Desktop/Z/contactez.html">CONTACTEZ NOUS</a>
+
+</div>
+</header>
+<div class="container" id="payment-form">
+	<br>
+	<br>
+	<h4>Réserver une voiture </h4>
+	<br>
+	<form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Nom</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Prénom</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" >
+  </div>
+   <div class="form-group">
+    <label for="formGroupExampleInput">Numéro de téléphone</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+   <div class="form-group">
+    <label for="formGroupExampleInput">E-mail</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Date de départ</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Date de retour</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+    <div class="form-group">
+    <label for="formGroupExampleInput">Numéro de permis</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+      <div class="form-group">
+    <label for="formGroupExampleInput">CIN</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Méthode de paiement</label>
+    <div id="iconspayment">
+<img alt="" src="C:\Users\W10\Desktop\Z\I\Light Color\visa.png" id="visa" onclick="changevisa()"/>
+<img alt="" src="C:\Users\W10\Desktop\Z\I\Light Color\Mastercard.png" id="Mastercard" onclick="changemc()" />
+<img alt="" src="C:\Users\W10\Desktop\Z\I\Light Color\western.png" id="western" onclick="changewst()" />
+<img alt="" src="C:\Users\W10\Desktop\Z\I\Light Color\maestro.png" id="maestro" onclick="changemae()" />
+<img alt="" src="C:\Users\W10\Desktop\Z\I\Light Color\paypal.png" id="paypal" onclick="changeppl()" />
+	</div>
+	      <div class="form-group">
+    <label for="formGroupExampleInput">Numéro de carte </label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+        <div class="form-group">
+    <label for="formGroupExampleInput">Date d'expiration</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" >
+  </div>
+  </div>
+  <button type="button" class="btn btn-primary">Réserver</button>
+</form>
+</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
